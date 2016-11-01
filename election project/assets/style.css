@@ -1,0 +1,28 @@
+.nav {
+	width: 100%;
+}
+
+.nav li {
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	list-style: none;
+	font-size: 20px;
+	border-color: #41D3BD;
+	border-width: thick;
+	border-style: double;
+	text-align: center;
+	margin-right: 1.5em;
+	background-color: #DE6449;
+	/*	display: inline-block;*/
+}
+
+.nav li a {
+	text-decoration: none;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+body {
+	text-align: center;
+	font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+	/*	background-color: darkseagreen;*/
+}
