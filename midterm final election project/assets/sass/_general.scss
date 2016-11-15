@@ -1,0 +1,232 @@
+p {
+	width: 50%;
+	font-size: 20px;
+	margin-left: 25%
+}
+
+.container {
+	width: 75%;
+	margin-left: 12%;
+}
+
+#canidates {
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+#canidates li {
+	list-style: none;
+	text-decoration: none;
+}
+
+#canidates p {
+	font-size: 20px;
+}
+
+#canidates img {
+	width: 250px;
+	height: 250px;
+}
+
+.nav {
+	height: 50px;
+	border-radius: 10px;
+	border: 1px solid darkred;
+	/*	border: 1px solid #eb6e1a;*/
+	margin: 5px;
+	background-color: #6ca5b2;
+	/*	background-color: steelblue;*/
+	position: relative;
+	margin: 20px 0;
+	text-align: center;
+	font-size: 15px;
+}
+
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	text-decoration: underline;
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.nav a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*	font-family:fantasy;*/
+	font-size: 16px;
+	font-weight: 800;
+	/*	padding: 3px 12px;*/
+	text-decoration: none;
+	color: black;
+	line-height: 100%;
+}
+
+.nav a:hover {
+	color: white;
+}
+
+.nav .current a {
+	background: #999;
+	color: #fff;
+	border-radius: 5px;
+}
+
+
+/* right nav */
+
+.nav.right ul {
+	text-align: right;
+}
+
+
+/* center nav */
+
+.nav.center ul {
+	text-align: center;
+}
+
+body {
+	/*	background-color: #f95243;*/
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	/*	background-color: cadetblue;*/
+	/*	background-image: url(vote-1278835_1280.png);*/
+}
+
+p {
+	padding: 10px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 375px;
+}
+
+#content {
+	background-color: cadetblue;
+	border-radius: 10px;
+	border: 1px solid #ebebeb;
+	margin: 5px;
+}
+
+#home {
+	text-align: center;
+}
+
+#home ul li {
+	list-style: none;
+}
+
+#home ul li a {
+	color: black;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin-right: 50px;
+}
+
+#home p {
+	width: 90%;
+	/*	margin-left: 40px;*/
+	text-align: center;
+	font-weight: 600;
+	font-size: 13px;
+	border-color: darkred;
+	border-style: double;
+	border-width: thick;
+}
+
+#home li {
+	text-decoration: underline;
+}
+
+h1,
+h2 {
+	color: darkred;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+	text-decoration: underline;
+}
+
+#register p {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 600;
+}
+
+#register p a {
+	color: black;
+	text-decoration: underline;
+	font-size: 18px;
+	text-align: left;
+}
+
+#register li {
+	font-weight: 600;
+	text-align: center;
+	margin-right: 120px;
+	list-style: none;
+	font-size: 16px;
+}
+
+a {
+	color: black;
+	text-decoration: underline;
+	font-size: 16px;
+	text-align: center;
+}
+
+#election p {
+	font-size: 20px;
+	text-align: center;
+	font-weight: 800;
+}
+
+#election li,
+#resources li {
+	list-style: none;
+	font-size: 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+#events p {
+	font-weight: 800;
+	font-size: 18px;
+	text-align: center;
+}
+
+#resources li {
+	padding-top: 20px;
+}
+
+#banner img {
+	width: 75%;
+	height: 250px;
+	margin-left: 12%
+}
+
+#canidates #banner img {
+	margin-right: 12%;
+}
+
+#resources li {
+	width: 75%;
+	margin-left: 10%;
+}
+
+#home p {
+	width: 50%;
+	margin-right: 30px;
+}
