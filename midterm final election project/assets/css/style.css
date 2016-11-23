@@ -1,0 +1,267 @@
+/* line 1, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+p {
+  width: 50%;
+  font-size: 20px;
+  margin-left: 25%;
+}
+
+/* line 7, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.container {
+  width: 75%;
+  margin-left: 12%;
+}
+
+/* line 12, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#canidates {
+  text-align: center;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+/* line 19, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#canidates li {
+  list-style: none;
+  text-decoration: none;
+}
+
+/* line 24, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#canidates p {
+  font-size: 20px;
+}
+
+/* line 28, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#canidates img {
+  width: 250px;
+  height: 250px;
+}
+
+/* line 33, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid darkred;
+  /*	border: 1px solid #eb6e1a;*/
+  margin: 5px;
+  background-color: #6ca5b2;
+  /*	background-color: steelblue;*/
+  position: relative;
+  margin: 20px 0;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* line 47, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 52, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav li {
+  text-decoration: underline;
+  margin: 0 5px 10px 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+/* line 60, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav a {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  /*	font-family:fantasy;*/
+  font-size: 16px;
+  font-weight: 800;
+  /*	padding: 3px 12px;*/
+  text-decoration: none;
+  color: black;
+  line-height: 100%;
+}
+
+/* line 71, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav a:hover {
+  color: white;
+}
+
+/* line 75, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav .current a {
+  background: #999;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* right nav */
+/* line 84, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav.right ul {
+  text-align: right;
+}
+
+/* center nav */
+/* line 91, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+.nav.center ul {
+  text-align: center;
+}
+
+/* line 95, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+body {
+  /*	background-color: #f95243;*/
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
+  /*	background-color: cadetblue;*/
+  /*	background-image: url(vote-1278835_1280.png);*/
+}
+
+/* line 104, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+p {
+  padding: 10px;
+}
+
+/* line 108, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+/* line 113, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#content {
+  background-color: cadetblue;
+  border-radius: 10px;
+  border: 1px solid #ebebeb;
+  margin: 5px;
+}
+
+/* line 120, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#home {
+  text-align: center;
+}
+
+/* line 124, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#home ul li {
+  list-style: none;
+}
+
+/* line 128, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#home ul li a {
+  color: black;
+  text-decoration: none;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-right: 50px;
+}
+
+/* line 136, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#home p {
+  width: 90%;
+  /*	margin-left: 40px;*/
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  border-color: darkred;
+  border-style: double;
+  border-width: thick;
+}
+
+/* line 147, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#home li {
+  text-decoration: underline;
+}
+
+/* line 151, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+h1,
+h2 {
+  color: darkred;
+  text-align: center;
+}
+
+/* line 157, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* line 162, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#register p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* line 168, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#register p a {
+  color: black;
+  text-decoration: underline;
+  font-size: 18px;
+  text-align: left;
+}
+
+/* line 175, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#register li {
+  font-weight: 600;
+  text-align: center;
+  margin-right: 120px;
+  list-style: none;
+  font-size: 16px;
+}
+
+/* line 183, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+a {
+  color: black;
+  text-decoration: underline;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* line 190, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#election p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 800;
+}
+
+/* line 196, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#election li,
+#resources li {
+  list-style: none;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* line 204, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#events p {
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* line 210, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#resources li {
+  padding-top: 20px;
+}
+
+/* line 214, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#banner img {
+  width: 75%;
+  height: 250px;
+  margin-left: 12%;
+}
+
+/* line 220, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#canidates #banner img {
+  margin-right: 12%;
+}
+
+/* line 224, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#resources li {
+  width: 75%;
+  margin-left: 10%;
+}
+
+/* line 229, C:/Users/TechAdmin/Documents/bmcc/mmp240/midterm final election project/assets/sass/_general.scss */
+#home p {
+  width: 50%;
+  margin-right: 30px;
+}
+
+/*# sourceMappingURL=../css/style.map */
